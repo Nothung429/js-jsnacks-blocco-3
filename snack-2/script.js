@@ -4,7 +4,7 @@ console.log(casualNumber);
 // Genera N array, ognuno formato da 10 numeri casuali tra 1 e 100
 for (let i = 0 ; i < casualNumber ; i++) {
     const arrayGen = [];
-    for (let i = 0 ; i < 10 ; i++) {
+    for (let j = 0 ; j < 10 ; j++) {
         arrayGen.push(Math.floor(Math.random() * 100) + 1);
     }
     console.log(arrayGen);
